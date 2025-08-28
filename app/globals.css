@@ -24,3 +24,13 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* Untuk semua elemen */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE 10+ */
+}
+
+/* Untuk Chrome, Edge, dan Safari */
+*::-webkit-scrollbar {
+  display: none;
+}
