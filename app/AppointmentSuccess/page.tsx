@@ -25,7 +25,7 @@ export default function AppointmentSuccess() {
       </div>
 
       {/* Detail Pesanan */}
-      <div className="mt-6 w-full max-w-md bg-white rounded-2xl shadow-md p-3 text-[10px] space-y-1">
+      <div className="mt-6 w-full max-w-md bg-white rounded-2xl shadow-md p-3 text-xs space-y-1">
         <div className="flex justify-between">
           <span className="text-gray-500">Tanggal</span>
           <span className="font-medium font-semibold">{appointment.date}</span>
