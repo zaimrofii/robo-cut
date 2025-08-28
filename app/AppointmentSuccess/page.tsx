@@ -14,7 +14,7 @@ export default function AppointmentSuccess() {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 px-4 text-sm">
+    <div className="flex flex-col items-center pt-25 min-h-screen bg-gray-50 px-4 text-sm">
       {/* Gambar & Tagline */}
       <div className="text-center">
         <CheckCircle2 size={50} className="text-blue-500 mx-auto mb-5" />
