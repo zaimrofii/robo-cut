@@ -63,7 +63,7 @@ export default function Appointment() {
     : "Belum dipilih";
 
   return (
-    <div className="h-[100vh] w-full bg-gray-100 relative">
+    <div className="h-[100vh] w-full bg-gray-100 relative text-gray-800">
       <div className=" relative p-2">
         <Link href={"/"}>
           <ArrowLeft className="p-2 h-9 w-9 bg-white rounded-full" />

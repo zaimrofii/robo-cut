@@ -55,7 +55,7 @@ const Dashboard: React.FC = () => {
       </section>
 
       {/* Bagian Discount */}
-      <section className="bg-gray-100 pt-4 rounded-t-4xl pb-4">
+      <section className="bg-gray-100 pt-4 rounded-t-4xl pb-4 text-gray-800">
         <div className="w-9/10 bg-gray-100 mx-auto bg-orange-50 p-4 rounded-xl flex items-center justify-between shadow">
           <div>
             <h2 className="text-sm font-semibold flex items-center gap-2">
@@ -72,7 +72,7 @@ const Dashboard: React.FC = () => {
       </section>
 
       {/* Bagian Riwayat */}
-      <section className="bg-gray-100 px-4 h-full">
+      <section className="bg-gray-100 px-4 h-full text-gray-800">
         <h2 className="mx-auto font-semibold mb-2 flex items-center gap-2">
           Riwayat
         </h2>

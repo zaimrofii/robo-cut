@@ -79,7 +79,9 @@ export default function BarberHistory() {
 
       {/* 3. Keterangan */}
       <div>
-        <h2 className="font-semibold text-sm mb-1">Keterangan</h2>
+        <h2 className="font-semibold text-sm mb-1  text-gray-800">
+          Keterangan
+        </h2>
         <p className="text-gray-700 text-xs">{selectedHistory.description}</p>
       </div>
 
